@@ -5,7 +5,7 @@
 ### Instructions
 
 We have embeded a web app in a symfony project, the game itself
-is hosted on my github, at (https://www.meandyy.github.io "Game hosted here").
+is hosted on my github, at [www.meandyy.github.io](https://www.meandyy.github.io "Game hosted here").
 WebGL was used to build the game for web.
 
 * Clone this repository and point webserver to the **web** folder.
