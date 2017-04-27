@@ -1,0 +1,27 @@
+% extends '_base.html.twig' %}
+
+    {% block pageTitle %}Poll{% endblock %}
+
+    {% block body %}
+
+        <ul>
+            {% for unit in units %}
+                <li>
+                    id = {{ unit.id }}
+                    <br>
+                    name = {{ unit.name }}
+                    <br>
+                    {{ unit.icon }}
+                    <br>
+                    {{ unit.description }}
+                </li>
+            {% endfor %}
+        </ul>
+
+        <hr>
+        <a href="{{ path('units_new_form')}}">
+            create new unit
+        </a>
+    {% endblock %}
+
+    {% endblock %}

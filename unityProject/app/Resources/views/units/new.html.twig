@@ -1,0 +1,17 @@
+{% extends '_base.html.twig' %}
+    {% block pageTitle %}Create new Unit{% endblock %}
+
+    {% block body %}
+        <h1>Create new unit</h1>
+
+        <form action="/units/processNewForm" method="POST">
+            Name:
+            <input type="text" name="name">
+            <p>
+            <input type="image" name"icon">
+            <p>
+             <input type="text" name="description">
+             <p>
+            <input type="submit" value="Create new unit">
+        </form>
+    {% endblock %}
